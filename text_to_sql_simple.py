@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine, Column, Integer, String, text
 from sqlalchemy.orm import declarative_base, sessionmaker
 
-# --- Configuración básica ---
+# --- Configuración básica11111 ---
 Base = declarative_base()
 engine = create_engine("sqlite:///personas.db", echo=True)
 Session = sessionmaker(bind=engine)
